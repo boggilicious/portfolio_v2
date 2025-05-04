@@ -25,7 +25,13 @@ html{
         color: var(--color-fg);
     }
 }
-
+#myName {
+    display: inline-block;
+    height: 1.2em;        /* Adjust based on your font size */
+    line-height: 1.2em;   /* Ensures vertical alignment */
+    vertical-align: middle;
+    overflow: hidden;
+}
 li a {
     display: block;
     color: var(--color-fg);
