@@ -49,7 +49,7 @@ ul {
     padding: 0;
     overflow: hidden;
 }
-#app{
+main{
     display: grid;
     place-items: center;
 }
@@ -73,6 +73,18 @@ ul {
 
 /* example use of CSS custom properties */
 body {
+    min-height: 100vh;
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
     background-color: var(--color-bg);
     color: var(--color-fg);
+}
+
+footer{
+    font-family: "Coral Pixels", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin-top: auto;
 }
