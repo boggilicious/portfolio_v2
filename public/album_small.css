@@ -1,0 +1,68 @@
+/* Styles for album_small.mustache */
+.album-container {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    width: 350px;
+}
+
+.album-container img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    border: 1px solid darkgray;
+}
+
+.album-container .album-details {
+    flex: 1;
+}
+
+.album-container .album-details h2 {
+    margin: 0;
+}
+
+.album-container .album-details p {
+    margin: 5px 0;
+}
+.album-details{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.album-container h2{
+    font-size: 30px;
+    text-align: left;
+    font-family: "Handjet", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+            "ELGR" 1,
+            "ELSH" 2;
+}
+.album-container p{
+    font-size: 20px;
+    text-align: left;
+    font-family: "Handjet", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+            "ELGR" 1,
+            "ELSH" 2;
+}
+
+.flip-box {
+    background-color: transparent;
+
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+.flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 1.6s;
+    transform-style: preserve-3d;
+}
+.flip-box:hover .flip-box-inner {
+    transform: rotateY(360deg);
+}

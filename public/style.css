@@ -53,11 +53,12 @@ main{
     display: grid;
     place-items: center;
 }
-#socials{
+
+.Link-Container {
     font-size: 20px;
     text-align: center;
-    font-family: "Coral Pixels", serif;
-    font-weight: 400;
+    font-family: "Handjet", sans-serif;
+    font-weight: 350;
     font-style: normal;
 }
 
@@ -82,9 +83,39 @@ body {
 }
 
 footer{
-    font-family: "Coral Pixels", serif;
-    font-weight: 400;
+    font-family: "Handjet", sans-serif;
+    font-weight: 350;
+    font-size: 20px; /* Match the font size of li items in socials */
     font-style: normal;
     text-align: center;
     margin-top: auto;
+}
+
+/* My Cds */
+#music-header {
+    font-size: 20px;
+    text-align: center;
+    font-family: "Coral Pixels", serif;
+    font-weight: 900;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin-bottom: 10px;
+
+}
+p {
+    font-size: 20px;
+    text-align: center;
+    font-family: "Handjet", sans-serif;
+    font-weight: 350;
+    font-style: normal;
+    font-variation-settings:
+            "ELGR" 1,
+            "ELSH" 2;
+}
+
+#albums-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Space between album containers */
 }

@@ -1,8 +1,4 @@
-
-console.log('slay');
-
 let index = 0;
-
 
 function typeWriter() {
     const attributes = ["WEB DEV...", "PHP artisan...", "JS newbie...", "Bogdan Noskov!"];
