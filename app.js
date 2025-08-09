@@ -3,6 +3,9 @@ import fs from "fs";
 import path from 'path';
 import https from 'https';
 import mustacheExpress from "mustache-express";
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 const app = express();
 
